@@ -16,6 +16,8 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
+	"initializeCommand": "docker pull ghcr.io/troupelang/troupe:latest",
+
 	// Uncomment to run commands after the container is created - like installing curl
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 
