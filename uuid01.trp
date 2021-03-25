@@ -1,3 +1,0 @@
-let val id = mkuuid () 
-in print id 
-end 
